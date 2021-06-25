@@ -1,0 +1,81 @@
+\documentclass[doktyp=unbekannt,
+	draft=false,
+	fleqn,
+	fontsize=11pt,
+	hausschrift=false, % macht unter aktuellen texlive und miktex Probleme, Thomas Benkert konnte es noch nicht lösen -> cmbright als Ersatz
+	kapitel=true,
+	nummern=fortlaufend,
+	parskip=yes,
+	sprache=ngerman,
+	tikz=true,
+	titelseite=standard,
+	twoside=true,
+	wbm=blau-grau,
+	wbmtracht=einfach
+]{TUBAFarbeiten}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[fleqn]{amsmath}
+\usepackage{cmbright}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{csquotes}
+\usepackage{tabularx}
+\usepackage{lscape}
+\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\usepackage{import}
+\usepackage[nomain,record,symbols,nopostdot,stylemods=mcols,style=mcolindex,nonumberlist]{glossaries-extra}
+\usepackage{amssymb}
+\usepackage{babel}
+
+
+
+\addbibresource{bib/DA.bib}
+
+\glsxtrresourcefile[src=sym/Symbols.bib]{Symbols}
+
+\renewcommand{\arraystretch}{1.5} %Strecken der Zellen in Tabellen um den Faktor 1.5
+
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\phi}{\varphi}
+\renewcommand{\theta}{\vartheta}
+
+\newcommand{\s}[1]{\glsname{#1}}
+
+
+\setlength{\arrayrulewidth}{0.8mm} % Liniendicke in Tabellen
+
+\DeclareSIUnit{\dC}{\degreeCelsius}
+\DeclareSIUnit{\mm}{\milli\meter}
+\DeclareSIUnit{\kN}{\kilo\newton}
+
+%Laden von TU-Paketen
+\TUBAFInstitut{Institut für Metallformung}
+\TUBAFTitel{Untersuchung des Einflusses der Vorbehandlungsmethoden auf die Haftfestigkeit eines Magnesium-Kunstofftape-Verbundes			}
+\TUBAFAutor[W.Porep]{Wieland Proep}
+\TUBAFStudiengang{Werkstoffwissenschaft und Werkstofftechnologie}
+\TUBAFVertiefung{Umformtechnik}
+\TUBAFDatum{\today}
+
+\begin{document}
+	\maketitle
+	\tableofcontents
+	\newpage
+	\listoffigures
+	\newpage
+
+	\input{Kapitel/2-Einleitung.tex}
+	\include{Kapitel/3-Stand-der-Technik.tex}
+	\input{Kapitel/4-Zielstellung.tex}
+	\input{Kapitel/5-Versuchsvorbereitung.tex}
+	
+	
+	\newpage
+	\printbibliography
+	
+	\printunsrtsymbols
+\end{document}
