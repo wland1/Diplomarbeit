@@ -26,17 +26,24 @@
 \usepackage{csquotes}
 \usepackage{tabularx}
 \usepackage{lscape}
-\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+ \usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
 \usepackage{import}
 \usepackage[nomain,record,symbols,nopostdot,stylemods=mcols,style=mcolindex,nonumberlist]{glossaries-extra}
 \usepackage{amssymb}
 \usepackage{babel}
+\usepackage{graphics}
+\usepackage{datatool}
+\usepackage{mathtools}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{arydshln}
+\usepackage{miller}
 
 
 
-\addbibresource{bib/DA.bib}
+ \addbibresource{bib/lit.bib}
 
-\glsxtrresourcefile[src=sym/Symbols.bib]{Symbols}
+\glsxtrresourcefile[src=Symbols]{Symbols}
 
 \renewcommand{\arraystretch}{1.5} %Strecken der Zellen in Tabellen um den Faktor 1.5
 
@@ -51,12 +58,14 @@
 
 \DeclareSIUnit{\dC}{\degreeCelsius}
 \DeclareSIUnit{\mm}{\milli\meter}
+\DeclareSIUnit{\mum}{\micro\meter}
 \DeclareSIUnit{\kN}{\kilo\newton}
+\DeclareSIUnit{\MPa}{\mega\pascal}
 
 %Laden von TU-Paketen
 \TUBAFInstitut{Institut für Metallformung}
-\TUBAFTitel{Untersuchung des Einflusses der Vorbehandlungsmethoden auf die Haftfestigkeit eines Magnesium-Kunstofftape-Verbundes			}
-\TUBAFAutor[W.Porep]{Wieland Proep}
+\TUBAFTitel{Untersuchung des Einflusses der Vorbehandlungsmethoden auf die Haftfestigkeit eines Metall-Kunstofftape-Verbundes}
+\TUBAFAutor[W.Porep]{Wieland Porep}
 \TUBAFStudiengang{Werkstoffwissenschaft und Werkstofftechnologie}
 \TUBAFVertiefung{Umformtechnik}
 \TUBAFDatum{\today}
@@ -68,14 +77,13 @@
 	\listoffigures
 	\newpage
 
-	\input{Kapitel/2-Einleitung.tex}
-	\include{Kapitel/3-Stand-der-Technik.tex}
-	\input{Kapitel/4-Zielstellung.tex}
-	\input{Kapitel/5-Versuchsvorbereitung.tex}
+	\input{Kapitel/2-Einleitung}
+	\include{Kapitel/3-Stand-der-Technik}
+	\input{Kapitel/4-Zielstellung}
+	\input{Kapitel/5-Versuchsvorbereitung}
 	
 	
 	\newpage
 	\printbibliography
-	
 	\printunsrtsymbols
 \end{document}

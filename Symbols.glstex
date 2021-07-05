@@ -44,6 +44,14 @@
 \providecommand{\bibglsnewsymbol}[4]{%
  \longnewglossaryentry*{#1}{name={#3},sort={#1},category={symbol},#2}{#4}}
 
+\bibglsnewsymbol{DBTT}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}},
+sort={DBTT|}}%
+{{}\ensuremath{DBTT}}%
+{ductile to brittle transformation temperature}
+\glsxtrfieldlistadd{DBTT}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}}
+
+
 \bibglsnewsymbol{h}%
 {location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{12}},
 sort={h|}}%
