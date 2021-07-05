@@ -44,6 +44,38 @@
 \providecommand{\bibglsnewsymbol}[4]{%
  \longnewglossaryentry*{#1}{name={#3},sort={#1},category={symbol},#2}{#4}}
 
+\bibglsnewsymbol{Al}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}},
+sort={Al|}}%
+{{}\ensuremath{Al}}%
+{Aluminium}
+\glsxtrfieldlistadd{Al}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}}
+
+
+\bibglsnewsymbol{Arall}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}},
+sort={Arall|}}%
+{{}\ensuremath{Arall}}%
+{Aramid Reinforced Aluminium Laminate}
+\glsxtrfieldlistadd{Arall}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}}
+
+
+\bibglsnewsymbol{AW}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{22}},
+sort={AW|}}%
+{{}\ensuremath{Al}}%
+{Aluminiumlegierung}
+\glsxtrfieldlistadd{AW}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{22}}
+
+
+\bibglsnewsymbol{Carall}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{11}},
+sort={Carall|}}%
+{{}\ensuremath{Carall}}%
+{Carbon Reinforced Aluminium Laminate}
+\glsxtrfieldlistadd{Carall}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{11}}
+
+
 \bibglsnewsymbol{DBTT}%
 {location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}},
 sort={DBTT|}}%
@@ -52,11 +84,75 @@ sort={DBTT|}}%
 \glsxtrfieldlistadd{DBTT}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{32}}
 
 
+\bibglsnewsymbol{F}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{15}},
+sort={F|}}%
+{{}\ensuremath{F}}%
+{Kraft}
+\glsxtrfieldlistadd{F}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{15}}
+
+
+\bibglsnewsymbol{FML}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}},
+sort={FML|}}%
+{{}\ensuremath{FML}}%
+{Fibre Metal Laminate, Faser-Metall-Verbund}
+\glsxtrfieldlistadd{FML}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{7}}
+
+
+\bibglsnewsymbol{Glare}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{13}},
+sort={Glare|}}%
+{{}\ensuremath{Glare}}%
+{Glass Reinforced Aluminium Laminate}
+\glsxtrfieldlistadd{Glare}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{13}}
+
+
 \bibglsnewsymbol{h}%
 {location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{12}},
 sort={h|}}%
 {{}\ensuremath{h}}%
 {Hoehe des Deckbleches}
 \glsxtrfieldlistadd{h}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{12}}
+
+
+\bibglsnewsymbol{Mg}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}},
+sort={Mg|}}%
+{{}\ensuremath{Mg}}%
+{Magnesium}
+\glsxtrfieldlistadd{Mg}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}}
+
+
+\bibglsnewsymbol{Ni}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{20}},
+sort={Ni|}}%
+{{}\ensuremath{Ni}}%
+{Nickel}
+\glsxtrfieldlistadd{Ni}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{20}}
+
+
+\bibglsnewsymbol{PA}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{12}},
+sort={PA|}}%
+{{}\ensuremath{PA}}%
+{Polyamid}
+\glsxtrfieldlistadd{PA}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{12}}
+
+
+\bibglsnewsymbol{PP}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{20}},
+sort={PP|}}%
+{{}\ensuremath{PP}}%
+{Polypropylen}
+\glsxtrfieldlistadd{PP}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{20}}
+
+
+\bibglsnewsymbol{Zn}%
+{location={\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}},
+sort={Zn|}}%
+{{}\ensuremath{Zn}}%
+{Zink}
+\glsxtrfieldlistadd{Zn}{loclist}{\glsnoidxdisplayloc{}{page}{glsnumberformat}{19}}
 
 
